@@ -1,0 +1,35 @@
+<!--Admin login-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Aventura</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500" rel="stylesheet">
+	<link rel="shortcut icon" href="images/favicon.png">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<!-- First include jquery js -->
+<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+<!-- Then include bootstrap js -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+</head>
+<body class="adminForm">
+	<div class="full-container">
+		<p class="heading" style="color: #15a18ef4;">AVENTURA</p>
+		<div class="center-container">
+			<div class="formWindow" id="adminLoginWindow">
+				<form action="adminlogin.php" method="post">
+					<p class="labelInvert"><span>Email</span> <input class="adminFormInput" type="text" placeholder="Enter your email" name="adminEmail" required></p>
+					<p class="labelInvert"><span>Password</span> <input class="adminFormInput" type="Password" placeholder="Enter your password" name="adminPwd" required></p>
+					<p><input type="submit" value="Log in" class="yellowBtn" name="adminLogin"></p>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+
+
